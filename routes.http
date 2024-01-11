@@ -13,7 +13,7 @@ GET http://localhost:8081/videos
 
 ###
 
-PUT http://localhost:8081/videos/5ab3d445-b90c-4842-b0c6-2e65e5e9ab96
+PUT http://localhost:8081/videos/
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:8081/videos/5ab3d445-b90c-4842-b0c6-2e65e5e9ab96
+DELETE http://localhost:8081/videos/
