@@ -1,0 +1,27 @@
+POST http://localhost:8081/videos
+Content-Type: application/json
+
+{
+    "title": "video 02",
+    "description": "testando criação de videos",
+    "duration": 180
+}
+
+###
+//                                          ¬ ?search=nome do que eu quero buscar
+GET http://localhost:8081/videos
+
+###
+
+PUT http://localhost:8081/videos/5ab3d445-b90c-4842-b0c6-2e65e5e9ab96
+Content-Type: application/json
+
+{
+    "title": "video atualizado",
+    "description": "testando update",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:8081/videos/5ab3d445-b90c-4842-b0c6-2e65e5e9ab96
