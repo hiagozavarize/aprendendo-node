@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http:https://aprendendo-node-0ox4.onrender.com/videos/2e5b2069-7c7e-4da5-bb55-c507b0e80c3c
+DELETE https://aprendendo-node-0ox4.onrender.com/videos/2e5b2069-7c7e-4da5-bb55-c507b0e80c3c
