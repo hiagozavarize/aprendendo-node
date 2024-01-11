@@ -1,0 +1,27 @@
+POST https://aprendendo-node-0ox4.onrender.com/videos
+Content-Type: application/json
+
+{
+    "title": "video 02",
+    "description": "testando criação de videos",
+    "duration": 180
+}
+
+###
+//                                          ¬ ?search=nome do que eu quero buscar
+GET https://aprendendo-node-0ox4.onrender.com/videos
+
+###
+
+PUT https://aprendendo-node-0ox4.onrender.com/videos/2e5b2069-7c7e-4da5-bb55-c507b0e80c3c
+Content-Type: application/json
+
+{
+    "title": "video atualizado",
+    "description": "testando update",
+    "duration": 180
+}
+
+###
+
+DELETE http:https://aprendendo-node-0ox4.onrender.com/videos/2e5b2069-7c7e-4da5-bb55-c507b0e80c3c
